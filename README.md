@@ -12,23 +12,23 @@ This repository contains my solution to the Resistor Networks Solution for secti
 
 This solution is solved using Python 3.10.7+.
 
-###Install Python:
+### Install Python:
 
 Make sure that Python is installed on your machine. You can download and install Python from the official website: [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
-###Clone the repository:
+### Clone the repository:
 
 Clone the repository to your local machine using your preferred method. You can use Git, download a ZIP file of the repository, or any other method that you prefer.
 
-###Navigate to the project directory:
+### Navigate to the project directory:
 
 Open a terminal or command prompt and navigate to the project directory that you just cloned.
 
-###Dependencies:
+### Dependencies:
 
 There are no required dependencies to be installed, modules used are included in the standard Python Library.
 
-###Run the program:
+### Run the program:
 
 Run the program by running the following command:
 ```console
