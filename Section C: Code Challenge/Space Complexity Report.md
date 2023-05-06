@@ -1,4 +1,4 @@
-**#Space Complexity Report:**
+#**Space Complexity Report:**
 
 The Space Complexity of this function can be expressed as O(n), where n is the total number of resistance values in our data set.
 
