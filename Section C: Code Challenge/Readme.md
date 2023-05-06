@@ -10,7 +10,7 @@ This repository contains my solution to the Resistor Networks Solution for secti
 
 ## How to run?
 This solution is solved using Python 3.10.7+.
-With Python installed on your PC, you can run the file using your terminal or command line from any platform(Mac OS, Windows, Linux), by navigating to the directory containing the script, and running the following command:
+With Python installed on your PC, once you have copied the folder containing the script to your local directory, you can run the file using your terminal or command line from any platform(Mac OS, Windows, Linux), by navigating to the directory containing the script, and running the following command:
 ```console
 > python resistor_networks.py
 ```
