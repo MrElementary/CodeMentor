@@ -10,4 +10,6 @@ The Space Complexity of this function can also be expressed as O(n), where n is 
 
 The worst-case scenario would be incrementally related to the size of the data set itself, and in terms of time complexity, the longer the overall processing time will be due to the larger number of recursive calls required for each tuple/list to unpack. In terms of Space complexity, this continous increment of recursion would also ultimately require larger increases in memory to support the successful run of the application as the data set given becomes larger.
 
+## Summary:
+
 In summary the worst-case scenario for the resistor_networks.py program would still be expressed as O(n) where n is the total number of resistance values in the input.
