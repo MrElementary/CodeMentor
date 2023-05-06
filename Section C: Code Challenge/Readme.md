@@ -1,1 +1,3 @@
-Readme file
+# Resistor Networks Solution
+
+## What is this
