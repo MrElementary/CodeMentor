@@ -6,7 +6,7 @@ This repository contains my solution to the Resistor Networks Solution for secti
 ## What is included?
 * resistor_networks.py - The driver code for the program solution.
 * test_suite.py - The test application with test cases consisting of the examples provided in the [original problem](https://edabit.com/challenge/eWXL8Jz78hP5tW644).
-* Space Complexity Report - A brief breakdown of the space complexity of the solution in respects to Big O notation.
+* Time/Space Complexity Report - A brief breakdown of the time and space complexity of the solution in respects to Big O notation.
 
 ## How to run?
 
@@ -20,8 +20,17 @@ Make sure that Python is installed on your machine. You can download and install
 
 Clone the repository to your local machine using your preferred method. You can use Git, download a ZIP file of the repository, or any other method that you prefer.
 
-3. Navigate to the project directory: Open a terminal or command prompt and navigate to the project directory that you just cloned.
+3. Navigate to the project directory:
 
+Open a terminal or command prompt and navigate to the project directory that you just cloned.
+
+4. Dependencies:
+
+There are no required dependencies to be installed, modules used are included in the standard Python Library.
+
+5. Run the program:
+
+Run the program by running the following command:
 ```console
 > python resistor_networks.py
 ```
@@ -30,3 +39,5 @@ You can also run the test_suite by navigating to the local directory and running
 ```console
 > python test_suite.py
 ```
+
+If you encounter any errors while running the program, make sure to read the error message carefully and troubleshoot accordingly.
