@@ -12,6 +12,8 @@ This repository contains my solution to the Resistor Networks Solution for secti
 
 This solution is solved using Python 3.10.7+.
 
+Install Python: Make sure that Python is installed on your machine. You can download and install Python from the official website: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+
 With Python installed on your PC, once you have copied the folder containing the script to your local directory, you can run the file using your terminal or command line from any platform(Mac OS, Windows, Linux), by navigating to the directory containing the script, and running the following command:
 ```console
 > python resistor_networks.py
