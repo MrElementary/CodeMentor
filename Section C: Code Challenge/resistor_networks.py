@@ -36,8 +36,8 @@ def process_resistors(arr):
     return arr
 
 # Driver code example
-##INIT_ARRAY = "(10, [20, 30])"
-##
-##if __name__ == "__main__":
-##    network_resistance = process_resistors(INIT_ARRAY)
-##    print(network_resistance)
+INIT_ARRAY = "(10, [20, 30])"
+
+if __name__ == "__main__":
+    network_resistance = process_resistors(INIT_ARRAY)
+    print(network_resistance)
