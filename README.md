@@ -14,3 +14,8 @@ With Python installed on your PC, once you have copied the folder containing the
 ```console
 > python resistor_networks.py
 ```
+
+You can also run the test_suite by navigating to the local directory and running the command:
+```console
+> python test_suite.py
+```
