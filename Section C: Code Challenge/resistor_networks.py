@@ -17,13 +17,12 @@ def process_resistors(arr, top_level=True):
     try:
         if isinstance(arr, str):
             arr = ast.literal_eval(arr)
-        elif isinstance(arr, (int,float)) and top_level == True:
+        if isinstance(arr, (int,float)) and top_level is True:
             print("Cannot calculate with a single value.")
             return None
-    except Exception:
+    except:
         return print("Invalid Input")
 
-        
     # If the current outer nest is a list, go deeper and repeat
     if isinstance(arr, list):
         for i, item in enumerate(arr):
@@ -50,7 +49,7 @@ def process_resistors(arr, top_level=True):
     return arr
 
 # Driver code example
-INIT_ARRAY = (6, [8, (4, [8, (4, [6, (8, [6, (10, 2)])])])])
+INIT_ARRAY = "(6, [8, (4, [8, (4, [6, (8, [6, (10, 2)])])])])"
 
 if __name__ == "__main__":
     process_resistors(INIT_ARRAY)
