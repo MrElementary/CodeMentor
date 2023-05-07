@@ -41,3 +41,13 @@ You can also run the test_suite by navigating to the local directory and running
 ```
 
 If you encounter any errors while running the program, make sure to read the error message carefully and troubleshoot accordingly.
+
+## References:
+
+Stack Overflow. (n.d.). python - Calculate the total resistance of a circuit given in a string. [online] Available at:
+(https://stackoverflow.com/questions/46629215/calculate-the-total-resistance-of-a-circuit-given-in-a-string)
+
+Python, R. (n.d.). Recursion in Python: An Introduction – Real Python. [online] realpython.com. Available at:
+(https://realpython.com/python-recursion/#:~:text=In%20Python%2C%20it)
+
+‌
