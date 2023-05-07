@@ -51,4 +51,3 @@ INIT_ARRAY = "(6, [8, (4, [8, (4, [6, (8, [6, (10, 2)])])])])"
 
 if __name__ == "__main__":
     network_resistance = process_resistors(INIT_ARRAY)
-    #print(network_resistance)
