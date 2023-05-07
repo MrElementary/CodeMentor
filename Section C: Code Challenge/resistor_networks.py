@@ -17,6 +17,9 @@ def process_resistors(arr, top_level=True):
     try:
         if isinstance(arr, str):
             arr = ast.literal_eval(arr)
+        elif isinstance(arr, (int,float)) and top_level == True:
+            print("Cannot calculate with a single value.")
+            return None
     except Exception:
         return print("Invalid Input")
 
@@ -47,7 +50,7 @@ def process_resistors(arr, top_level=True):
     return arr
 
 # Driver code example
-INIT_ARRAY = "[10, (20, 30)]"
+INIT_ARRAY = (6, [8, (4, [8, (4, [6, (8, [6, (10, 2)])])])])
 
 if __name__ == "__main__":
     process_resistors(INIT_ARRAY)
