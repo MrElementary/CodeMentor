@@ -37,10 +37,12 @@ Your comments are well formulated and explain exactly what is required.
 ## Aspects to improve on
 
 Focus on your second function for the Fibonacci series to make use of itself recursively as it repeats the code until it reaches the number of values entered(maxNumber).
-Refer to the information provided above on how best to approach this.
+Refer to the information provided above on how best to approach this, also consider having a look here (https://www.w3schools.com/java/java_recursion.asp)
+
+Here you can have a look at some naming conventions for the Java programming language: (https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html)
 
 ## Overall Feedback
 
-Other than the changes required to fix the code for the task at hand, you did very well! 
+Other than the changes required to fix the code for the task at hand, you did very well! Best of luck forward and I look forward to your next submission!
 
 Remember - a person who never made a mistake never tried anything new - Albert Einstein :D
