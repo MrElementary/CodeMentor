@@ -30,7 +30,7 @@ def process_resistors(arr, top_level=True):
             values = 1 / sum(values)
             if top_level:
                 print(f"Total network resistance: {round(values, 1)}")
-            return values
+            return round(values, 1)
 
     # If the current outer nest is a tuple, go deeper and repeat
     elif isinstance(arr, tuple):
@@ -41,13 +41,13 @@ def process_resistors(arr, top_level=True):
             result = sum(arr)
             if top_level:
                 print(f"Total network resistance: {round(result, 1)}")
-            return result
+            return round(result, 1)
 
     # Finally return the current value of arr if it's float or int
     return arr
 
 # Driver code example
-INIT_ARRAY = "(6, [8, (4, [8, (4, [6, (8, [6, (10, 2)])])])])"
+INIT_ARRAY = "[10, (20, 30)]"
 
 if __name__ == "__main__":
-    network_resistance = process_resistors(INIT_ARRAY)
+    process_resistors(INIT_ARRAY)
