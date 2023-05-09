@@ -1,4 +1,4 @@
-# Resistor Networks Solution
+# Code Mentor Application
 
 ## What is this?
 This repository contains my application to the Code Mentor Position
